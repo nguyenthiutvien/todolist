@@ -1,0 +1,13 @@
+:root {  
+    /* Color */
+      --purple: #7557FF;
+      --gray:hsl(0, 0%, 50%);
+      --white: #ffff;
+      
+      /* radius */
+      --radius-4: 4px;
+      --radius-6: 6px;
+      --radius-8: 8px;
+      --radius-12: 12px;
+    
+    }

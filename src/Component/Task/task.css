@@ -13,7 +13,7 @@
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .input-containers{
   display: flex;
@@ -33,18 +33,13 @@
   gap: 0.75rem;
 }
 .icon-done:hover {
-    color: #808080; 
+    color: var(--gray); 
 }
-  
-.icon-done:hover {
-    color: #34D399; 
-}
+
 .icon-cancle{
-  color:  #808080;
+  color:  var(--gray);
 }
-.icon-cancle:hover{
-  color: #FFA500;
-}
+
 .task-container{
   display: flex;
   align-items: center;
@@ -66,21 +61,21 @@
 }
 .task-completed{
   text-decoration: line-through; 
-  color: #808080; 
+  color: var(--gray); 
   font-size: 1.125rem; 
 }
 .task-notCompleted{
   font-size: 1.125rem; 
 }
 .icon-edit{
-  color: #808080;
+  color: var(--gray);
 }
 .icon-edit:hover{
-  color: #FFD700;
+  color: var(--purple);
 }
 .icon-delete{
-  color: #808080;
+  color: var(--gray);
 }
 .icon-delete:hover{
-  color: #FF0000;
+  color: var(--purple);
 }

@@ -1,6 +1,6 @@
 
 .input-conntainer{
-  background-color: #ffffff;
+  background-color: var(--white);
   width: 100%;
   display: flex;
   gap: 0.5rem;
@@ -8,12 +8,13 @@
   border-radius: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 10px;
   
 }
 .icon-plus{
   padding-left: 0;
   padding-right: 0;
-  color: #808080;
+  color: var(--gray);
 }
 .input-add{
   background-color: transparent;
@@ -28,8 +29,9 @@
   padding-left: 1rem;
   padding-right: 1rem;
   text-transform: uppercase;
-  color: #808080;
+  color: var(--gray);
   border: none;
-    background-color: #ffffff;
+  background-color: var(--white);
+  padding-top: 10px
 
 }

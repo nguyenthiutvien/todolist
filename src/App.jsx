@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Component/Header/header";
 import Tasks from "./Component/Tasks/tasks";
-import { MdDarkMode, MdSunny } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
 import '../src/App.css'
+import '../src/styles/variable.css'
 
 const local_storage_key ='todoList'
 const App = () => {
@@ -42,10 +43,8 @@ const App = () => {
   const deleteTask = (id) => {
     const newTasks = tasks.filter((task) => task.id !== id);
     saveTasks(newTasks);
-
   };
   
-
   const isCompleted = (id) => {
     const newTasks = tasks.map((task) => task.id === id ? { ...task, completed: !task.completed} : task )
     saveTasks(newTasks)
@@ -54,8 +53,6 @@ const App = () => {
   const clearTasks = () => {
     saveTasks([]);
   };
-
-  // const getCompletedTasks = () => tasks.filter((task) => task.completed);
   const numberTask = () => tasks.filter((task) => !task.completed);
 
   const changeTheme = () => {
