@@ -1,0 +1,35 @@
+
+.input-conntainer{
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+.icon-plus{
+  padding-left: 0;
+  padding-right: 0;
+  color: #808080;
+}
+.input-add{
+  background-color: transparent;
+  width: 100%;
+  height: fit-content;
+  padding: 0.25rem;
+  padding-top: 1rem;
+  font-size: 1.125rem;
+  border:none;
+}
+.btn-submit{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  color: #808080;
+  border: none;
+    background-color: #ffffff;
+
+}
